@@ -1,6 +1,9 @@
 import time
 import requests
 import os
+from dotenv import load_dotenv
+
+load_dotenv()  # <-- загружает .env
 
 BOT_TOKEN = os.getenv("8231730889:AAHNS3AZNJPkrgX6GLd4fDBl2v1wSQwRsYA")
 USER_ID = os.getenv("7637653316")
